@@ -1,10 +1,7 @@
 #include <iostream>
 #include <string>
 
-
 using namespace std;
-
-
 
 class Produto {
 public:
@@ -87,7 +84,7 @@ void teste2() {
     suporteTV.preco = 150;
     suporteTV.nome = "Suporte TV";
     suporteTV.desconto = 0.05;
-    suporteTV.preco = TV.calcularValorDeVenda();
+    suporteTV.preco = suporteTV.calcularValorDeVenda();
     suporteTV.imprimir();
 
     Pedido pedido;
